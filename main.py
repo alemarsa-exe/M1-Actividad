@@ -7,7 +7,7 @@ import mesa
 #     x = sorted(agent_wealths)
 #     N = model.num_agents
 #     B = sum(xi * (N - i) for i, xi in enumerate(x)) / (N * sum(x))
-#     return 1 + (1 / N) - 2 * B
+#     return 1 + (1 / N) - 2 * Basdasd
 
 class VaccumAgent(mesa.Agent):
     """An agent with fixed initial wealth."""
